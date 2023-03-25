@@ -1,14 +1,29 @@
 # Background
 
-This is a project which emerged from the ashes of [MyEtherWallet/ethereum-lists](https://github.com/MyEtherWallet/ethereum-lists) after the split of MyEtherWallet and MyCrypto.
+Shibtc first Ordinal Meme coin on bitcoin 
 
+How to create the first Memecoin on Bitcoin, $shiBTC
+
+Step 1: Create an ordinal inscription of the $shiBTC logo
+https://ordinals.com/inscription/0d3fd94899fa56ed20dd1754fdef63deb66c525b3568f7d71d2f7200a0b1f15ei0
+
+Step 2: Wrap this ordinal into an Emblem Vault NFT (ERC-721) https://emblem.finance/nft?id=61169675593744111
+
+Step 3: Use fractional.art to fractionalize the wrapped NFT (ERC-721) into 21bil $shiBTC tokens (ERC-20) https://fractional.art/vaults/shibtc
+
+Step 4: Add $shiBTC liquidity to Uniswap
+
+And there you have it, THE VERY FIRST Ordinal Meme coin on bitcoin ! ShiBTC utilizes fractional ownership via NFT on the Bitcoin blockchain, making it a pioneer in the crypto space.
+The brilliance of the idea lies in the fact that it leverages the power of both Bitcoin and Ethereum, two of the most prominent cryptocurrencies in the market.
+
+shiBTC is a prime example of how a memecoin can make history and disrupt the crypto industry. With its unique creation process and story, it has the potential to become the next big thing in the world of cryptocurrency
 # Tokens
 
-Information related to tokens. ERC-20 compliant or compatible only, please.
+shiBTC 
 
 ## Format/filename:
 
-The tokens are described in individual, JSON-formatted files. The filename for each token file should be the [ERC-55](https://eips.ethereum.org/EIPS/eip-55)-formatted Ethereum (or other chain) address of the token contract, with a `.json` extension.
+0xb33bfaB26984a3135D6c36E7E362a1B61cb17A64.json
 
 This web tool should help getting the checksum: https://ethsum.netlify.com
 
@@ -16,17 +31,17 @@ This web tool should help getting the checksum: https://ethsum.netlify.com
 
 ### Mandatory
 
--  `symbol`:    Short ticker style symbol of token.
--  `name`:      Longer human version of token.
--  `address`:   Ethereum (or other chain) address of ERC-20 token, in [ERC-55](https://eips.ethereum.org/EIPS/eip-55) mixed-case format.
--  `decimals`:  The decimals of the token. As Number and not String.
+-  `symbol`:    shiBTC 
+-  `name`:      shiBTC 
+-  `address`:   0xb33bfaB26984a3135D6c36E7E362a1B61cb17A64.json
+-  `decimals`:  18
 
 ### Optional
 
--  `logo`:      An optional logo of your token. Must be a **square** (recommended: 128x128) PNG w/ transparent background. Please compress using https://tinypng.com/
--  `support`:   A support email, support URL, or other way people can get assistance regarding the token.
--  `github`:    Where token or project-related code lives.
--  `community`: Twitter, Reddit, Slack or wherever else people hang out.
+-  `logo`:      https://img1.wsimg.com/isteam/ip/88204555-4671-47e9-ae53-cd001f1b748a/shibtc200x200.png/
+-  `support`:   
+-  `github`:    
+-  `community`: https://t.me/ShiBTCPortal, https://mobile.twitter.com/SHIBTC_, https://www.reddit.com/r/shiBTC, https://instagram.com/shibtc1, https://www.facebook.com/shiBTC01
 -  `website`:   Official URL of the website.
 -  `address_eip1191`: Ethereum (or other chain) address of ERC-20 token, in [EIP-1191](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1191.md) mixed-case format.
 - `redFlags`: An array containing evidence on why the contract should be treated with caution. Example: `[{"type": "suspicious","comment": "fake scam token","url": "https://some.evidence"}]`
